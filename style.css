@@ -14,5 +14,51 @@
 .text, .cards, footer {
     margin: 0 100px 0 100px;
     padding: 30px;
-    background-color: blanchedalmond;
+    background-color: #f6f2ef;
+}
+
+.card {
+    border: none !important;
+    border-radius: 0.5rem !important;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 400px) {
+    .navbar {
+        padding: 0;
+    }
+    .logo {
+        height: 60px;
+    }
+    .text, .cards, footer {
+        margin: 0 10px 0 10px;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 570px) {
+    .navbar {
+        padding: 0;
+    }
+    .logo {
+        height: 60px;
+    }
+    .text, .cards, footer {
+        margin: 0 10px 0 10px;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 571px) and (max-width: 960px) {
+    .navbar {
+        padding: 0;
+    }
+    .logo {
+        height: 70px;
+    }
+    .text, .cards, footer {
+        margin: 0 10px 0 10px;
+        padding: 10px;
+    } 
 }
