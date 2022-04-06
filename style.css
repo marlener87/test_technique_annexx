@@ -11,22 +11,12 @@
     padding-right: 50px;
 }
 
-.background {
-    background-image: url('images/annexx--garde-meubles-et-box-de-stockage-ramonville-saint-agne.jpg');
-    
-}
-
-.text {
-    font-weight: bold;
-}
-
 .text, .cards, footer {
     margin: 0 100px 0 100px;
     padding: 30px;
 }
 
 .card {
-    border: none !important;
     border-radius: 0.5rem !important;
 }
 
@@ -43,10 +33,6 @@
         margin: 0 10px 0 10px;
         padding: 10px;
     }
-    .background {
-        background-color: palegoldenrod;
-        background-image: none;
-    }
 }
 
 @media screen and (min-width: 401px) and (max-width: 570px) {
@@ -59,10 +45,6 @@
     .text, .cards, footer {
         margin: 0 10px 0 10px;
         padding: 10px;
-    }
-    .background {
-        background-color: palegoldenrod;
-        background-image: none;
     }
 }
 
@@ -77,7 +59,4 @@
         margin: 0 10px 0 10px;
         padding: 10px;
     } 
-    .background {
-        background-image: url('images/annexx--garde-meubles-et-box-de-stockage-ramonville-saint-agne1.jpg');
-    }
 }
